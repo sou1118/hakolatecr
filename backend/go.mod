@@ -2,7 +2,7 @@ module hakolate-backend
 
 go 1.22.2
 
-require github.com/labstack/echo/v4 v4.13.3
+require github.com/labstack/echo/v4 v4.13.4
 
 require (
 	github.com/labstack/gommon v0.4.2 // indirect
