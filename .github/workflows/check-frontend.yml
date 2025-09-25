@@ -20,7 +20,7 @@ jobs:
           working-directory: ./frontend
       steps:
         - name: Checkout your repository using git
-          uses: actions/checkout@v4
+          uses: actions/checkout@v5
         - name: Copy .mise.toml
           run: cp .mise.toml ../.mise.toml
         - name: Setup mise
@@ -40,7 +40,7 @@ jobs:
           working-directory: ./frontend
       steps:
         - name: Checkout your repository using git
-          uses: actions/checkout@v4
+          uses: actions/checkout@v5
         - name: Copy .mise.toml
           run: cp .mise.toml ../.mise.toml
         - name: Setup mise
@@ -57,7 +57,7 @@ jobs:
           working-directory: ./frontend
       steps:
         - name: Checkout your repository using git
-          uses: actions/checkout@v4
+          uses: actions/checkout@v5
         - name: Copy .mise.toml
           run: cp .mise.toml ../.mise.toml
         - name: Setup mise
