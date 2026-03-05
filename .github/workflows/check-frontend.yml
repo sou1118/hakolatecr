@@ -24,7 +24,7 @@ jobs:
         - name: Copy .mise.toml
           run: cp .mise.toml ../.mise.toml
         - name: Setup mise
-          uses: jdx/mise-action@v2
+          uses: jdx/mise-action@v3
           with:
             install: true
             cache: true
@@ -44,7 +44,7 @@ jobs:
         - name: Copy .mise.toml
           run: cp .mise.toml ../.mise.toml
         - name: Setup mise
-          uses: jdx/mise-action@v2
+          uses: jdx/mise-action@v3
         - name: Install dependencies
           run: bun install --frozen-lockfile
         - name: Lint
@@ -61,7 +61,7 @@ jobs:
         - name: Copy .mise.toml
           run: cp .mise.toml ../.mise.toml
         - name: Setup mise
-          uses: jdx/mise-action@v2
+          uses: jdx/mise-action@v3
           with:
             install: true
             cache: true
