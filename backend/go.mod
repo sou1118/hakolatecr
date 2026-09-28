@@ -4,7 +4,7 @@ go 1.25.0
 
 toolchain go1.27.1
 
-require github.com/labstack/echo/v4 v4.15.4
+require github.com/labstack/echo/v4 v4.16.0
 
 require (
 	github.com/labstack/gommon v0.5.0 // indirect
@@ -15,5 +15,5 @@ require (
 	golang.org/x/crypto v0.53.0 // indirect
 	golang.org/x/net v0.56.0 // indirect
 	golang.org/x/sys v0.46.0 // indirect
-	golang.org/x/text v0.38.0 // indirect
+	golang.org/x/text v0.40.0 // indirect
 )
